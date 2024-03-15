@@ -1,9 +1,9 @@
 let fileUrl = "https://getsamplefiles.com/download/mp4/sample-1.mp4";
-const textButton = document.getElementById("testButton");
+const testButton = document.getElementById("testButton");
 testButton.addEventListener("click", startTest);
 
 let testTime = 15;
-google.charts.load("current", {"packages": ["corechart", "gauge"]});
+google.charts.load("current", { packages: ["corechart", "gauge"]});
 google.charts.setOnLoadCallback(drawChart);
 
 function startTest() {
